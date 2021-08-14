@@ -22,7 +22,6 @@ public class fMlg
     this.plugin = plugin;
   }
   
-  @SuppressWarnings("deprecation")
 @EventHandler
   public void Mlg(PlayerInteractEvent e)
   {

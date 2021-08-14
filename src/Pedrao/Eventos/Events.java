@@ -25,7 +25,6 @@ import org.bukkit.help.HelpTopic;
 
 import Pedrao.Main;
 
-@SuppressWarnings("deprecation")
 public class Events implements Listener {
 	public Events(Main main) {
 	}

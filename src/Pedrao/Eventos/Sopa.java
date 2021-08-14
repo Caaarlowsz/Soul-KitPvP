@@ -17,7 +17,6 @@ public class Sopa
 {
   public Sopa(Main main) {}
   
-  @SuppressWarnings("deprecation")
 @EventHandler 
   public void onSoup(PlayerInteractEvent e)
   {

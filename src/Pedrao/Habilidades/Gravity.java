@@ -57,7 +57,6 @@ public class Gravity implements Listener {
 	      this.cooldown.add(p);
 	      Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(Main.plugin, new Runnable()
 	      {
-	        @SuppressWarnings("deprecation")
 			public void run()
 	        {
 	          FallingBlock fb = Bukkit.getServer().getWorld("world").spawnFallingBlock(e.getClickedBlock().getLocation().add(0.0D, 15.0D, 0.0D), Material.TNT, (byte)0);
@@ -86,7 +85,6 @@ public class Gravity implements Listener {
 	    }
 	  }
 	  
-	  @SuppressWarnings("deprecation")
 	@EventHandler
 	  public void bldk(EntityChangeBlockEvent e)
 	  {

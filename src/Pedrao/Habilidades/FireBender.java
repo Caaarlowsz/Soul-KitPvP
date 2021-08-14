@@ -29,7 +29,6 @@ public class FireBender
 	public static ArrayList<String> wateratack = new ArrayList<>();
 	public static ArrayList<String> cooldown = new ArrayList<>();
 	
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void PlayerInteractEvt(PlayerInteractEntityEvent e) {
 		final Player p = e.getPlayer();

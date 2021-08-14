@@ -24,7 +24,6 @@ import Pedrao.Effect.Raios;
 		public static ArrayList<String> wateratack = new ArrayList<String>();
 		public static ArrayList<String> cooldown = new ArrayList<String>();
 		
-		@SuppressWarnings("deprecation")
 		@EventHandler
 		public void PlayerInteractEvt(PlayerInteractEntityEvent e) {
 			final Player p = e.getPlayer();

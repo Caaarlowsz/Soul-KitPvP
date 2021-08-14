@@ -161,7 +161,6 @@ public static HashMap<String, ItemStack[]> salvarinv = new HashMap();
     }
   }
   
-  @SuppressWarnings("deprecation")
 public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args)
   {
     if (!(sender instanceof Player))

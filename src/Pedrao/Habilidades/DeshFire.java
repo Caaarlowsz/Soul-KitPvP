@@ -114,7 +114,7 @@ public class DeshFire implements Listener {
 	        public void run()
 	        {
 	          DeshFire.cooldownm.remove(p);
-	          Deshfire.remove(p);
+	          Deshfire.remove(p.getName());
 	          p.sendMessage(Main.prefix + "§3§oVoce pode usar novamente!");
 	          p.getWorld().playSound(p.getLocation(), Sound.BURP, 5.0F, 5.0F);
 	        }

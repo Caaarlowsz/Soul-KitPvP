@@ -58,7 +58,6 @@ public class Sword
     }
   }
   
-  @SuppressWarnings("deprecation")
 @EventHandler
   public void NerfsDanos(EntityDamageByEntityEvent event)
   {

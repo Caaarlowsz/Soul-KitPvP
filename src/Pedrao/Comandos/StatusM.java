@@ -24,7 +24,7 @@ public class StatusM
 {
   public StatusM(Main main) {}
 
-@SuppressWarnings({ "unchecked", "rawtypes", "deprecation" })
+@SuppressWarnings({ "unchecked", "rawtypes" })
 public static void guiKits1(Player p)
   {
     Inventory inv = Bukkit.getServer().createInventory(p, 9, "§5Status");
@@ -106,11 +106,9 @@ public static void guiKits1(Player p)
     return false;
   }
   
-  @SuppressWarnings("deprecation")
 @EventHandler
   public void onPlayerCLickInventry(InventoryClickEvent e)
   {
-    Player p = (Player)e.getWhoClicked();
     if ((e.getInventory().getTitle().equalsIgnoreCase("§5Status")) && 
       (e.getCurrentItem() != null) && (e.getCurrentItem().getTypeId() != 0))
     {

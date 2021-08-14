@@ -129,7 +129,7 @@ public class Rain implements Listener {
 	      {
 	        public void run()
 	        {
-	          Rain.hab.remove(p1.getName());
+	          Rain.hab.remove(p1);
 	        }
 	      }, 50L);
 	      cooldownm.add(p1);

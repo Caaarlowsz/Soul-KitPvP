@@ -22,7 +22,6 @@ public class Ban
     plugin = main;
   }
   
-  @SuppressWarnings("deprecation")
 public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args)
   {
     if (cmd.getName().equalsIgnoreCase("ban"))

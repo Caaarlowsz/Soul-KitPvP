@@ -57,7 +57,7 @@ public class AbrirKitDiario implements Listener {
 		firework.setFireworkMeta(fMeta);
 	}
 
-	@SuppressWarnings({ "unused", "deprecation" })
+	@SuppressWarnings("unused")
 	@EventHandler
 	public void aoClicarNoInv(InventoryClickEvent e) {
 		Player jogador = (Player) e.getWhoClicked();
@@ -67,7 +67,6 @@ public class AbrirKitDiario implements Listener {
 		}
 	}
 
-	@SuppressWarnings("deprecation")
 	public static void Inventario(final Player jogador) {
 		final Inventory random = Bukkit.createInventory(jogador, 27, "§4§lKitDiario");
 

@@ -71,7 +71,6 @@ public class Warp
     return false;
   }
   
-  @SuppressWarnings("deprecation")
 @EventHandler
   public void onPlayerCLickInventry(InventoryClickEvent e)
   {

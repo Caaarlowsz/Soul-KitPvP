@@ -100,7 +100,6 @@ public static void GuiLojaKit(Player p)
     p.openInventory(inv);
   }
 
-  @SuppressWarnings("deprecation")
 @EventHandler
   public void onPlayerCLickInventry(InventoryClickEvent e)
   {

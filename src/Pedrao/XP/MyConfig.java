@@ -16,7 +16,6 @@ public class MyConfig
   private File file;
   private FileConfiguration config;
   
-  @SuppressWarnings("deprecation")
 public MyConfig(InputStream configStream, File configFile, int comments, JavaPlugin plugin)
   {
     this.comments = comments;
@@ -139,7 +138,6 @@ public MyConfig(InputStream configStream, File configFile, int comments, JavaPlu
     reloadConfig();
   }
   
-  @SuppressWarnings("deprecation")
 public void reloadConfig()
   {
     this.config = YamlConfiguration.loadConfiguration(this.manager.getConfigContent(this.file));

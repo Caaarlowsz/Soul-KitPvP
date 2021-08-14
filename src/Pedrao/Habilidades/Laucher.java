@@ -23,7 +23,7 @@ public class Laucher implements Listener {
 	  public void onSpongePlace(BlockPlaceEvent e)
 	  {
 	    Player p = e.getPlayer();
-	    if (!KitAPI.Laucher.contains(p)) {
+	    if (!KitAPI.Laucher.contains(p.getName())) {
 	      return;
 	    }
 	    if (p.getItemInHand().getType() != Material.SPONGE) {

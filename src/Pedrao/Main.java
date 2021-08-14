@@ -49,7 +49,6 @@ import Pedrao.Habilidades.DeshFire;
 import Pedrao.Habilidades.FireBender;
 import Pedrao.Habilidades.Fisherman;
 import Pedrao.Habilidades.ForceField;
-import Pedrao.Habilidades.Gladiator;
 import Pedrao.Habilidades.Grappler;
 import Pedrao.Habilidades.Gravity;
 import Pedrao.Habilidades.Hulk;
@@ -76,7 +75,6 @@ import Pedrao.Habilidades.Vunerable;
 import Pedrao.Habilidades.WaterBender;
 import Pedrao.KitDiario.AbrirKitDiario;
 import Pedrao.ScoreB.ScoreDoBasic;
-import Pedrao.ScoreB.Scroller;
 import Pedrao.ScoreB.Status;
 import Pedrao.Warps.FPS;
 import Pedrao.Warps.Mlg;
@@ -134,7 +132,6 @@ public class Main
     
 	//scoreboard
 	new BukkitRunnable() {
-		@SuppressWarnings("deprecation")
 		@Override
 		public void run() {
 			for(Player p:Bukkit.getOnlinePlayers()) {

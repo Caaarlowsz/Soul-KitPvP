@@ -29,14 +29,12 @@ public static void setSimulatorCords1(Player player)
     Main.plugin.saveConfig();
   }
   
-  @SuppressWarnings("deprecation")
 public static void miniFeast()
   {
     for (Player p1 : Bukkit.getServer().getOnlinePlayers())
     {
       ConfigurationSection list = Main.getPlugin().getConfig().getConfigurationSection("MiniFeast");
       int x = ((Integer)list.get("x")).intValue();
-      int y = ((Integer)list.get("y")).intValue();
       int z = ((Integer)list.get("z")).intValue();
       Random r = new Random();
       
@@ -405,9 +403,7 @@ public static void miniFeast()
     {
       ConfigurationSection list = Main.getPlugin().getConfig().getConfigurationSection("MiniFeast");
       int x = ((Integer)list.get("x")).intValue();
-      int y = ((Integer)list.get("y")).intValue();
       int z = ((Integer)list.get("z")).intValue();
-      Random r = new Random();
       
       p1.getLocation().getWorld().getBlockAt(x + 1, p1.getLocation().getWorld().getHighestBlockYAt(x, z), z + 1).setType(Material.AIR);
       p1.getLocation().getWorld().getBlockAt(x - 1, p1.getLocation().getWorld().getHighestBlockYAt(x, z), z - 1).setType(Material.AIR);

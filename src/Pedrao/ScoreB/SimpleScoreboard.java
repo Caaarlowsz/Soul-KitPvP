@@ -69,7 +69,6 @@ public class SimpleScoreboard {
         return new AbstractMap.SimpleEntry<>(team, result);
     }
  
-    @SuppressWarnings("deprecation")
     public void build() {
         Objective obj = scoreboard.registerNewObjective((title.length() > 16 ? title.substring(0, 15) : title), "dummy");
         obj.setDisplayName(title);

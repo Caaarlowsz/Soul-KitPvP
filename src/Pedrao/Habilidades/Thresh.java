@@ -55,7 +55,6 @@ public class Thresh implements Listener {
 	    }
 	  }
 	  
-	  @SuppressWarnings("deprecation")
 	@EventHandler
 	  public void onEntityDamagerByEntity(EntityDamageByEntityEvent e)
 	  {

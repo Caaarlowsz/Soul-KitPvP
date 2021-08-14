@@ -18,7 +18,6 @@ public class Sc
 {
   ArrayList<String> staff = Main.staff;
   
-  @SuppressWarnings("deprecation")
 @EventHandler
   public void onChat(AsyncPlayerChatEvent e)
   {

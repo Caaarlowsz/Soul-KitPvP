@@ -15,7 +15,6 @@ public class Anchor implements Listener {
 	public Anchor(Main main) {
 	}
 
-	  @SuppressWarnings("deprecation")
 	@EventHandler
 	  public void AnchorEvent(EntityDamageByEntityEvent e)
 	  {
@@ -39,7 +38,6 @@ public class Anchor implements Listener {
 	    }
 	  }
 	  
-	  @SuppressWarnings("deprecation")
 	@EventHandler
 	  public void AnchorKiller(EntityDamageByEntityEvent e)
 	  {

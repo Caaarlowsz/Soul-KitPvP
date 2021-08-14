@@ -54,7 +54,6 @@ public class Pikachu implements Listener {
 	      nofall.add(p);
 	      Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this.plugin, new Runnable()
 	      {
-	        @SuppressWarnings("deprecation")
 			public void run()
 	        {
 	          if (p.getTargetBlock(null, 50).getType() == Material.GLASS)

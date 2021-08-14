@@ -110,7 +110,7 @@ public class Sonic implements Listener {
 	        public void run()
 	        {
 	          cooldownm.remove(p);
-	          Sonic.remove(p);
+	          Sonic.remove(p.getName());
 	          p.sendMessage(Main.prefix + "§3§oVoce pode usar novamente!");
 	          p.getWorld().playSound(p.getLocation(), Sound.BURP, 5.0F, 5.0F);
 	        }

@@ -15,7 +15,6 @@ public class UnBan
   public UnBan(Main main) {
 	}
 
-@SuppressWarnings("deprecation")
 public boolean onCommand(CommandSender Sender, Command Cmd, String Label, String[] Args)
   {
     if (Cmd.getName().equalsIgnoreCase("unban"))

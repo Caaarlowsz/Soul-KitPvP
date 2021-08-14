@@ -95,7 +95,6 @@ public class Cordinha
   
   public void die() {}
   
-  @SuppressWarnings("deprecation")
 public void spawn(Location location)
   {
     this.sb = ((Snowball)this.owner.getBukkitEntity().launchProjectile(

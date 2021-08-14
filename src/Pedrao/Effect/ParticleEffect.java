@@ -133,7 +133,6 @@ public static ParticleEffect fromName(String name)
     return null;
   }
 
-  @SuppressWarnings({"deprecation" })
 private static List<Player> getPlayers(Location center, double range)
   {
     List<Player> players = new ArrayList<Player>();

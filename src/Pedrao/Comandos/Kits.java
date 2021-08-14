@@ -22,7 +22,7 @@ public class Kits
 {
   public Kits(Main main) {}
 
-@SuppressWarnings({ "unchecked", "rawtypes", "deprecation" })
+@SuppressWarnings({ "unchecked", "rawtypes" })
 public static void guiKits1(Player p)
   {
     Inventory inv = Bukkit.getServer().createInventory(p, 54, "§6Seletor de Kits:");
@@ -627,7 +627,6 @@ public static void guiKits1(Player p)
     return false;
   }
   
-  @SuppressWarnings("deprecation")
 @EventHandler
   public void onPlayerCLickInventry(InventoryClickEvent e)
   {

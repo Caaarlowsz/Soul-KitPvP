@@ -43,9 +43,6 @@ public class Sword implements Listener {
 	        
 	        break;
 	      case 1: 
-	        ItemStack he = null;
-	        ItemStack le = null;
-	        
 	        inv.setArmorContents(new ItemStack[] {
 	          new ItemStack(Material.AIR) });
 	        
@@ -67,9 +64,6 @@ public class Sword implements Listener {
 	        
 	        break;
 	      case 4: 
-	        ItemStack hc = null;
-	        ItemStack lc = null;
-	        
 	        inv.setArmorContents(new ItemStack[] {
 	          new ItemStack(Material.AIR) });
 	        
