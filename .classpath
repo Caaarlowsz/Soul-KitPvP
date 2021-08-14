@@ -2,5 +2,10 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/APIs/PaperSpigot-1.7.10-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="/APIs/worldguard-6.1.jar"/>
+	<classpathentry kind="lib" path="/APIs/worldedit-bukkit-6.1.jar"/>
+	<classpathentry kind="lib" path="/APIs/BarAPI-3.4.jar"/>
+	<classpathentry kind="lib" path="/APIs/PermissionsEx-1.22.10.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
